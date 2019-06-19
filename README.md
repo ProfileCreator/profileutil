@@ -39,3 +39,17 @@ The output from this command contains no payload keys outside of the required pr
 
 
 ```
+
+## Examples
+
+
+#### Show all profiles that has a key with the name "Name" and the value for that key "Global Preferences"
+
+```shell
+./profileutil --key "Name" --value "Global Preferences"
+```
+
+#### Show all profiles that has the "InstallationSource" set to "Manual" and just list all identifiers as output.
+
+```shell
+./profileutil --key "InstallationSource" --value "Manual" --output identifier
