@@ -1,3 +1,5 @@
+# NOTE: This project was just a proof of concept, and the core functionality has since been implemented in the ProfileKit framework. You can find that project here: [ProfileKit](https://github.com/ProfileCreator/ProfileKit)
+
 # profileutil
 
 Command line tool to show installed configuration profile information.
